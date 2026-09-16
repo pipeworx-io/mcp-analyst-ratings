@@ -1,0 +1,27 @@
+{
+  "name": "@pipeworx/mcp-analyst-ratings",
+  "version": "0.1.0",
+  "description": "Analyst Ratings — today's US stock analyst upgrades, downgrades, coverage initiations and price-target changes, market-wide, plus the consensus rating and covering brokerages for any US ticker.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-analyst-ratings": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "analyst-ratings"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-analyst-ratings.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
