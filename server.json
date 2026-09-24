@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/analyst-ratings",
   "title": "Analyst Ratings",
   "description": "Analyst Ratings — today's US stock analyst upgrades, downgrades, coverage initiations and…",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/analyst-ratings",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-analyst-ratings",
