@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-analyst-ratings",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Analyst Ratings — today's US stock analyst upgrades, downgrades, coverage initiations and price-target changes, market-wide, plus the consensus rating and covering brokerages for any US ticker.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-1ad35cb92f950bec0cace6cc8234542142bb512d81c0cc989e636de8d8d00d40",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-4996af619d6d5405e85c063de71c85b74fdbd9d9eb3fd9285e84be17194a4c38",
+    "sourceCommit": "dca20ba6e13a9aa1c9f2918fc2ddaffe4cc30e5c"
   }
 }
