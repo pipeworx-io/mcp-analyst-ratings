@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-analyst-ratings",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Analyst Ratings — today's US stock analyst upgrades, downgrades, coverage initiations and price-target changes, market-wide, plus the consensus rating and covering brokerages for any US ticker.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-analyst-ratings": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "analyst-ratings"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-analyst-ratings.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/analyst-ratings",
   "pipeworx": {
-    "sourceHash": "v1-d8285ee4905e9057f45bbfd13876fc24ff994e1dc63a75d655a1e50443c3b30a",
-    "sourceCommit": "71f5325b13bb0ea0de2f0f7207885962ec91a484"
+    "mode": "gateway",
+    "slug": "analyst-ratings",
+    "gatewaySlug": "analyst-ratings",
+    "sourceHash": "v1-a1a29eaf6509bb117befefba3897bc561f85a5fcd6090accf7f27306283b4a8b",
+    "sourceCommit": "c6136b81713e72ccb22977ca0c0cd981f8c3f081"
   }
 }
